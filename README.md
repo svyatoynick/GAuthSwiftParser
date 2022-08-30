@@ -4,6 +4,7 @@ Get all the data from the Google Authenticator export data link `otpauth-migrati
 
 <img align="left" src="https://github.com/svyatoynick/GAuthSwiftParser/blob/main/Assets/preview.png"/>
 
+
 ## Navigate
 
 - [Installation](#installation)
