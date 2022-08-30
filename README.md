@@ -2,7 +2,9 @@
 
 Get all the data from the Google Authenticator export data link `otpauth-migration://offline?data=` in one line in Swift.
 
-<img align="left" src="https://github.com/svyatoynick/GAuthSwiftParser/blob/main/Assets/preview.png"/>
+<img align="left" src="https://github.com/svyatoynick/GAuthSwiftParser/blob/main/Assets/preview.png"/></div>
+
+
 
 ## Navigate
 
