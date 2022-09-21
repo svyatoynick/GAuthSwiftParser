@@ -47,7 +47,7 @@ let code = "otpauth-migration://offline?data=CiAKCkhlbGxvQp6tvu8SBEFsZXgaBkFtYXp
 let data = GAuthSwiftParser.getAccounts(code: code)
 ```
 
-After that you can work with `data`, an array of the class `AccountModel` that contains 3 parameters: `name`, `issuer` and`secret`.
+After that you can work with `data`, an array of the class `AccountModel` that contains 3 parameters: `name`, `issuer` and`secret`. Also available is the `getLink()` function, through which you can get an OTP link from the received data. 
 
 ## License 
 GAuthSwiftParser is available under the MIT license. See the LICENSE file for more info.
