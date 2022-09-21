@@ -28,4 +28,11 @@ public struct AccountModel {
     public var name: String
     public var issuer: String
     public var secret: String
+    
+    /** Reurns OTP link from data*/
+    func getLink() -> String {
+        let string = "otpauth://totp/\(name)?secret=\(secret)&issuer=\(issuer)"
+        return string
+    }
+    
 }
