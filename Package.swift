@@ -16,7 +16,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-protobuf.git", .upToNextMinor(from: "1.6.0")),
+        .package(url: "https://github.com/apple/swift-protobuf.git", .upToNextMinor(from: "1.20.2")),
         .package(url: "https://github.com/lachlanbell/SwiftOTP.git", .upToNextMinor(from: "3.0.0"))
     ],
     targets: [
